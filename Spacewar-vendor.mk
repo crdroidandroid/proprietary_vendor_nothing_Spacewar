@@ -8,6 +8,7 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_COPY_FILES += \
     vendor/nothing/Spacewar/proprietary/odm/etc/aac_richtap.config:$(TARGET_COPY_OUT_ODM)/etc/aac_richtap.config \
     vendor/nothing/Spacewar/proprietary/product/etc/permissions/telephony_product_privapp-permissions-qti.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/telephony_product_privapp-permissions-qti.xml \
+    vendor/nothing/Spacewar/proprietary/system/etc/public.libraries.txt:$(TARGET_COPY_OUT_SYSTEM)/etc/public.libraries.txt \
     vendor/nothing/Spacewar/proprietary/system/etc/sysconfig/qti_whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/qti_whitelist.xml \
     vendor/nothing/Spacewar/proprietary/system_ext/etc/dpm/dpm.conf:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/dpm/dpm.conf \
     vendor/nothing/Spacewar/proprietary/system_ext/etc/hdr_config/ans_off/ans_config.txt:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/hdr_config/ans_off/ans_config.txt \
@@ -115,6 +116,7 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/Spacewar/proprietary/system_ext/etc/init/dpmd.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/dpmd.rc \
     vendor/nothing/Spacewar/proprietary/system_ext/etc/init/tcmd.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/tcmd.rc \
     vendor/nothing/Spacewar/proprietary/system_ext/etc/init/wfdservice.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/wfdservice.rc \
+    vendor/nothing/Spacewar/proprietary/system_ext/etc/permissions/advancedSample_camera_extensions.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/advancedSample_camera_extensions.xml \
     vendor/nothing/Spacewar/proprietary/system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.hotwordenrollment.common.util.xml \
     vendor/nothing/Spacewar/proprietary/system_ext/etc/permissions/com.qti.dpmframework.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.qti.dpmframework.xml \
     vendor/nothing/Spacewar/proprietary/system_ext/etc/permissions/dpmapi.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/dpmapi.xml \
@@ -211,6 +213,7 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/Spacewar/proprietary/vendor/etc/gps.conf:$(TARGET_COPY_OUT_VENDOR)/etc/gps.conf \
     vendor/nothing/Spacewar/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.0-service-qti.rc \
     vendor/nothing/Spacewar/proprietary/vendor/etc/init/android.hardware.drm@1.3-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.3-service.widevine.rc \
+    vendor/nothing/Spacewar/proprietary/vendor/etc/init/android.hardware.camera.provider@2.4-service_64.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.camera.provider@2.4-service_64.rc \
     vendor/nothing/Spacewar/proprietary/vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc \
     vendor/nothing/Spacewar/proprietary/vendor/etc/init/android.hardware.gnss@2.1-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gnss@2.1-service-qti.rc \
     vendor/nothing/Spacewar/proprietary/vendor/etc/init/android.hardware.keymaster@4.1-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@4.1-service-qti.rc \
@@ -312,6 +315,8 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/Spacewar/proprietary/vendor/etc/mixer_paths_qrd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_qrd.xml \
     vendor/nothing/Spacewar/proprietary/vendor/etc/msm_irqbalance.conf:$(TARGET_COPY_OUT_VENDOR)/etc/msm_irqbalance.conf \
     vendor/nothing/Spacewar/proprietary/vendor/etc/permissions/vendor-qti-hardware-sensorscalibrate.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/vendor-qti-hardware-sensorscalibrate.xml \
+    vendor/nothing/Spacewar/proprietary/vendor/etc/powerhint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.xml \
+    vendor/nothing/Spacewar/proprietary/vendor/etc/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt \
     vendor/nothing/Spacewar/proprietary/vendor/etc/qcril_database/qcrilNr.db:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/qcrilNr.db \
     vendor/nothing/Spacewar/proprietary/vendor/etc/qcril_database/upgrade/config/10.0_config.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/config/10.0_config.sql \
     vendor/nothing/Spacewar/proprietary/vendor/etc/qcril_database/upgrade/config/11.0_config.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/config/11.0_config.sql \
@@ -539,7 +544,6 @@ PRODUCT_PACKAGES += \
     libbt-hidlclient \
     libbtnv \
     libc2d30_bltlib \
-    libcamxexternalformatutils \
     libcapiv2svacnn \
     libcapiv2svarnn \
     libcapiv2vop \
@@ -583,6 +587,7 @@ PRODUCT_PACKAGES += \
     libminksocket \
     libmiracast \
     libmmosal_vendor \
+    libmpbase \
     libmulawdec \
     libnetmgr \
     libqc2vppfilter \
@@ -813,6 +818,7 @@ PRODUCT_PACKAGES += \
     libGPTEE_vendor \
     libGPreqcancel \
     libGPreqcancel_svc \
+    libPlaneSegmentationWrapper \
     libQTEEConnector_listener \
     libQTEEConnector_vendor \
     libSonyIMX471RmscLibrary \
@@ -820,17 +826,29 @@ PRODUCT_PACKAGES += \
     libaidenoiser \
     libaidenoiserv2 \
     libaoa \
+    libarcsoft_aiscenedetection \
+    libarcsoft_beautyshot \
+    libarcsoft_dark_vision_raw \
     libarcsoft_dualcam_refocus_image \
     libarcsoft_dualcam_refocus_video \
     libarcsoft_hdr_detection \
     libarcsoft_high_dynamic_range \
+    libarcsoft_low_light_hdr \
+    libarcsoft_mf_superresolution \
     libarcsoft_night_video \
+    libarcsoft_portrait_distortion_correction \
+    libarcsoft_portrait_super_night_raw \
     libarcsoft_singlecam_bokeh \
+    libarcsoft_super_night_raw \
+    libarcsoft_superportrait \
+    libarcsoft_watermark \
     libbitmlengine \
     libbitmlenginev2 \
     libcacertclient \
     libcamera_nn_stub \
     libcamerapostproc \
+    libcamxextension_night \
+    libcamxexternalformatutils \
     libcamxfacialfeatures \
     libcamxfdalgo \
     libcamxfdengine \
@@ -848,7 +866,6 @@ PRODUCT_PACKAGES += \
     libcneqmiutils \
     libcom.qti.chinodeutils \
     libcpion \
-    libcvp_util \
     libcvpcpuRev_skel \
     libdataitems \
     libdepthcomputation \
@@ -859,13 +876,17 @@ PRODUCT_PACKAGES += \
     libdpps \
     libdrmfs \
     libdrmtime \
+    libeepromcutter \
     libesepmconfig \
     libgarden \
     libgarden_haltests_e2e \
     libgdtap \
     libgf_hal \
     libgnsspps \
+    libhdr_stub \
     libhdr_tm \
+    libhdrdynamic \
+    libhdrdynamicootf \
     libipebpsstriping \
     libipebpsstriping170 \
     libizat_client_api \
@@ -882,6 +903,7 @@ PRODUCT_PACKAGES += \
     liblowi_wifihal \
     liblqe \
     libmctfengine_stub \
+    libmfec \
     libmm-hdcpmgr \
     libmmcamera_bestats \
     libmmcamera_cac3 \
@@ -892,7 +914,7 @@ PRODUCT_PACKAGES += \
     libmmcamera_mfnr_t4 \
     libmmcamera_pdpc \
     libmorpho_MotionSensor \
-    libmpbase \
+    libmouth_mask_detection.arcsoft \
     libnanopb \
     libnetmgr_common \
     libnetmgr_nr_fusion \
@@ -1130,6 +1152,7 @@ PRODUCT_PACKAGES += \
     libdpmtcm \
     libimscamera_jni \
     libimsmedia_jni \
+    libencoderjpeg_jni \
     libmmosal \
     libmmparser_lite \
     libmmrtpdecoder \
@@ -1175,6 +1198,7 @@ PRODUCT_PACKAGES += \
     qcrilmsgtunnel \
     WfdCommon \
     tcmclient \
+    androidx.camera.extensions.impl.advanced \
     com.android.hotwordenrollment.common.util \
     com.qti.dpmframework \
     dpmapi \
