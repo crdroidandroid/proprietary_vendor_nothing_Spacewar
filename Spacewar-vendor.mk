@@ -213,7 +213,6 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/Spacewar/proprietary/vendor/etc/gps.conf:$(TARGET_COPY_OUT_VENDOR)/etc/gps.conf \
     vendor/nothing/Spacewar/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.0-service-qti.rc \
     vendor/nothing/Spacewar/proprietary/vendor/etc/init/android.hardware.drm@1.3-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.3-service.widevine.rc \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/init/android.hardware.camera.provider@2.4-service_64.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.camera.provider@2.4-service_64.rc \
     vendor/nothing/Spacewar/proprietary/vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc \
     vendor/nothing/Spacewar/proprietary/vendor/etc/init/android.hardware.gnss@2.1-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gnss@2.1-service-qti.rc \
     vendor/nothing/Spacewar/proprietary/vendor/etc/init/android.hardware.keymaster@4.1-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@4.1-service-qti.rc \
@@ -683,9 +682,50 @@ PRODUCT_PACKAGES += \
     com.qti.eeprom.abra_qtech_p24c64f_imx471_eeprom \
     com.qti.eeprom.abra_truly_p24c64f_imx471_eeprom \
     com.qti.eeprom.gt24p128c2csli_imx766 \
+    com.qti.eeprom.irs2381c_polar \
+    com.qti.eeprom.truly_cmb433 \
+    com.qti.flash.lm3644 \
     com.qti.sensor.abra_qtech_imx471_front \
     com.qti.sensor.abra_qtech_imx766_wide \
     com.qti.sensor.abra_qtech_s5kjn1_uw \
+    com.qti.sensor.imx318 \
+    com.qti.sensor.imx334 \
+    com.qti.sensor.imx362 \
+    com.qti.sensor.imx376 \
+    com.qti.sensor.imx386 \
+    com.qti.sensor.imx476 \
+    com.qti.sensor.imx481 \
+    com.qti.sensor.imx519 \
+    com.qti.sensor.imx563 \
+    com.qti.sensor.imx576 \
+    com.qti.sensor.imx577 \
+    com.qti.sensor.imx586 \
+    com.qti.sensor.imx766 \
+    com.qti.sensor.max7366_6dof \
+    com.qti.sensor.max7366_eyetrack \
+    com.qti.sensor.max7366_ov6211 \
+    com.qti.sensor.max7366_ov9282 \
+    com.qti.sensor.ov12a10 \
+    com.qti.sensor.ov12a10_front \
+    com.qti.sensor.ov13855 \
+    com.qti.sensor.ov13880 \
+    com.qti.sensor.ov6211_master \
+    com.qti.sensor.ov6211_slave \
+    com.qti.sensor.ov7251 \
+    com.qti.sensor.ov8856 \
+    com.qti.sensor.ov8856_master \
+    com.qti.sensor.ov8856_slave \
+    com.qti.sensor.ov9282_master \
+    com.qti.sensor.ov9282_slave \
+    com.qti.sensor.s5k2l7 \
+    com.qti.sensor.s5k2x5sp \
+    com.qti.sensor.s5k33dxx \
+    com.qti.sensor.s5k3m5 \
+    com.qti.sensor.s5k3p9 \
+    com.qti.sensor.s5k4h7 \
+    com.qti.sensor.s5k5e9yu05 \
+    com.qti.sensor.s5k5e9yx04 \
+    com.qti.sensor.s5kjd1sp \
     com.arcsoft.node.capturebokeh \
     com.arcsoft.node.hdr \
     com.arcsoft.node.picauto \
