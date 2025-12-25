@@ -5070,116 +5070,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libqti-perfd-client",
-    owner: "nothing",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libqti-perfd-client.so",
-            ],
-            shared_libs: [
-                "libcutils",
-                "libutils",
-                "liblog",
-                "vendor.qti.hardware.perf@2.2",
-                "libhidlbase",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libqti-perfd-client.so",
-            ],
-            shared_libs: [
-                "libcutils",
-                "libutils",
-                "liblog",
-                "vendor.qti.hardware.perf@2.2",
-                "libhidlbase",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libqti-perfd",
-    owner: "nothing",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libqti-perfd.so",
-            ],
-            shared_libs: [
-                "libcutils",
-                "liblog",
-                "libutils",
-                "libxml2",
-                "libqti-util",
-                "libhidlbase",
-                "vendor.qti.hardware.perf@2.0",
-                "libbase",
-                "libthermalclient",
-                "libqti-perfd-client",
-                "libperfconfig",
-                "libperfgluelayer",
-                "libdisplayconfig.qti",
-                "libperfioctl",
-                "vendor.qti.memory.pasrmanager@1.1",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libqti-perfd.so",
-            ],
-            shared_libs: [
-                "libcutils",
-                "liblog",
-                "libutils",
-                "libxml2",
-                "libqti-util",
-                "libhidlbase",
-                "vendor.qti.hardware.perf@2.0",
-                "libbase",
-                "libthermalclient",
-                "libqti-perfd-client",
-                "libperfconfig",
-                "libperfgluelayer",
-                "libdisplayconfig.qti",
-                "libperfioctl",
-                "vendor.qti.memory.pasrmanager@1.1",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libqti-util",
     owner: "nothing",
     strip: {
@@ -27288,7 +27178,6 @@ cc_prebuilt_binary {
                 "vendor.qti.hardware.perf@2.2",
                 "libperfconfig",
                 "libperfgluelayer",
-                "libqti-perfd-client",
                 "libc++",
                 "libc",
                 "libm",

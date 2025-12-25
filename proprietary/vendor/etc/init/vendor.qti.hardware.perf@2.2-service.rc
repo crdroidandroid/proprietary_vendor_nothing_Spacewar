@@ -9,5 +9,6 @@
 #  ---------------------------------------------------------------------------
 service perf-hal-2-2 /vendor/bin/hw/vendor.qti.hardware.perf@2.2-service
     class hal
+    disabled
     user root
     group root readproc oem_2907

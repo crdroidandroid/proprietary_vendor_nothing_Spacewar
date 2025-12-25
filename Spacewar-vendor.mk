@@ -624,8 +624,6 @@ PRODUCT_PACKAGES += \
     libqmi_legacy \
     libqmiservices \
     libqrtr \
-    libqti-perfd-client \
-    libqti-perfd \
     libqti-util \
     libqti-utils \
     libqtikeymaster4 \
