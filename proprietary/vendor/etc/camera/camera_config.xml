@@ -1,0 +1,5 @@
+<camera_config>
+    <camera id="0" type="BACK_MAIN"/>
+    <camera id="2" type="BACK_WIDE"/>
+    <camera id="3" type="FRONT"/>
+</camera_config>
