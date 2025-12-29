@@ -19,3 +19,7 @@ FAECLuxIndexThresholdForLLHDR=180
 FAECLuxIndexThresholdForSuperNight=310
 FAECLuxIndexThresholdForDarkVision=455
 SOISSensorSamplingRate=500
+enableMFNR=0
+enableMFNRPostFilter=0
+enableMFNRPreFilter=0
+mfnrEnable=0

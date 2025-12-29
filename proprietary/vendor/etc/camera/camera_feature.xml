@@ -4,4 +4,5 @@
     <feature name="bokeh" value="true"/>
     <feature name="depth" value="true"/>
     <feature name="rear_multi_camera" value="true"/>
+    <feature name="MFNR" value="0"/>
 </camera_features>
