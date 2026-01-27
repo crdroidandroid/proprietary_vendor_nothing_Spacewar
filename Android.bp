@@ -7558,33 +7558,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libdiraceffect_NT",
-    owner: "nothing",
-    vendor: true,
-    soc_specific: true,
-    relative_install_path: "soundfx",
-
-    strip: {
-        none: true,
-    },
-
-    arch: {
-        arm: {
-            srcs: [
-                "proprietary/vendor/lib/soundfx/libdiraceffect_NT.so",
-            ],
-        },
-        arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/soundfx/libdiraceffect_NT.so",
-            ],
-        },
-    },
-
-    compile_multilib: "both",
-}
-
-cc_prebuilt_library_shared {
     name: "libshoebox",
     owner: "nothing",
     strip: {
