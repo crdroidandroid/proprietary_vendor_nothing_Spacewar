@@ -12085,6 +12085,7 @@ cc_prebuilt_library_shared {
     relative_install_path: "camera/components",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
