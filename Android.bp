@@ -12100,7 +12100,7 @@ cc_prebuilt_library_shared {
                 "libutils",
                 "libvidhance",
                 "libsensorslog",
-                "libui-v34",
+                "libui",
                 "libc++",
                 "libc",
                 "libm",
