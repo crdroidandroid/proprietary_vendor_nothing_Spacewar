@@ -12055,6 +12055,13 @@ cc_prebuilt_library_shared {
     soc_specific: true,
 }
 
+cc_library_shared {
+    name: "libui-v34",
+    vendor: true,
+    shared_libs: ["libui"],
+    stl: "none",
+}
+
 cc_prebuilt_library_shared {
     name: "com.vidhance.node.processing",
     owner: "nothing",
@@ -12073,7 +12080,8 @@ cc_prebuilt_library_shared {
                 "libutils",
                 "libvidhance",
                 "libsensorslog",
-                "libui",
+                "libui-v34",
+                "libgui_vendor",
                 "libc++",
                 "libc",
                 "libm",
@@ -12085,7 +12093,7 @@ cc_prebuilt_library_shared {
     relative_install_path: "camera/components",
     prefer: true,
     soc_specific: true,
-    check_elf_files: false,
+    allow_undefined_symbols: true,
 }
 
 cc_prebuilt_library_shared {
