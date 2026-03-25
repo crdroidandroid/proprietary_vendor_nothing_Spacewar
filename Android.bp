@@ -126,6 +126,9 @@ cc_prebuilt_library_shared {
                 "libc++",
                 "libc",
                 "libm",
+                "libnativewindow",
+                "libgralloc.qti",
+                "libgralloctypes",
             ],
         },
         android_arm64: {
@@ -152,6 +155,9 @@ cc_prebuilt_library_shared {
                 "libc++",
                 "libc",
                 "libm",
+                "libnativewindow",
+                "libgralloc.qti",
+                "libgralloctypes",
             ],
         },
     },
@@ -205,6 +211,59 @@ cc_prebuilt_library_shared {
     relative_install_path: "egl",
     prefer: true,
     soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libOpenCL_adreno",
+    owner: "nothing",
+
+    srcs: [
+        "proprietary/vendor/lib64/libOpenCL_adreno.so",
+    ],
+
+    vendor: true,
+    soc_specific: true,
+
+    compile_multilib: "64",
+
+    shared_libs: [
+        "libc++",
+        "libc",
+        "libcutils",
+        "libdl",
+        "liblog",
+        "libm",
+    ],
+
+    strip: {
+        none: true,
+    },
+
+    check_elf_files: false,
+}
+
+cc_prebuilt_library_shared {
+    name: "libadreno_compiler_cl",
+    srcs: ["proprietary/vendor/lib64/libadreno_compiler_cl.so"],
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+}
+
+cc_prebuilt_library_shared {
+    name: "libgpudataproducer",
+    srcs: ["proprietary/vendor/lib64/libgpudataproducer.so"],
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+}
+
+cc_prebuilt_library_shared {
+    name: "libllvm-qgl",
+    srcs: ["proprietary/vendor/lib64/libllvm-qgl.so"],
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
 }
 
 cc_prebuilt_library_shared {
@@ -946,6 +1005,7 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "libadreno_utils",
+                "libbase",
                 "libgsl",
                 "libz",
                 "liblog",
@@ -974,6 +1034,7 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "libadreno_utils",
+                "libbase",
                 "libgsl",
                 "libz",
                 "liblog",
@@ -1064,8 +1125,11 @@ cc_prebuilt_library_shared {
                 "libvndksupport",
                 "libgralloc.qti",
                 "libgralloctypes",
-                "vendor.qti.hardware.display.mapper@4.0",
+                "vendor.qti.hardware.display.mapper@3.0",
+                "android.hardware.graphics.mapper@3.0",
                 "android.hardware.graphics.mapper@4.0",
+                "vendor.qti.hardware.display.mapper@4.0",
+                "libadreno_utils",
                 "vendor.qti.hardware.display.mapperextensions@1.0",
                 "vendor.qti.hardware.display.mapperextensions@1.1",
                 "libhidlbase",
@@ -1088,8 +1152,11 @@ cc_prebuilt_library_shared {
                 "libvndksupport",
                 "libgralloc.qti",
                 "libgralloctypes",
-                "vendor.qti.hardware.display.mapper@4.0",
+                "vendor.qti.hardware.display.mapper@3.0",
+                "android.hardware.graphics.mapper@3.0",
                 "android.hardware.graphics.mapper@4.0",
+                "vendor.qti.hardware.display.mapper@4.0",
+                "libadreno_utils",
                 "vendor.qti.hardware.display.mapperextensions@1.0",
                 "vendor.qti.hardware.display.mapperextensions@1.1",
                 "libhidlbase",
@@ -1123,6 +1190,7 @@ cc_prebuilt_library_shared {
                 "libc",
                 "libm",
                 "libdl",
+                "liblog",
             ],
         },
         android_arm64: {
@@ -1136,6 +1204,7 @@ cc_prebuilt_library_shared {
                 "libc",
                 "libm",
                 "libdl",
+                "liblog",
             ],
         },
     },
@@ -1439,6 +1508,8 @@ cc_prebuilt_library_shared {
                 "libc",
                 "libm",
                 "libdl",
+                "liblog",
+                "libnativewindow",
             ],
         },
         android_arm64: {
@@ -1451,6 +1522,8 @@ cc_prebuilt_library_shared {
                 "libc",
                 "libm",
                 "libdl",
+                "liblog",
+                "libnativewindow",
             ],
         },
     },
@@ -2850,6 +2923,7 @@ cc_prebuilt_library_shared {
                 "libc",
                 "libm",
                 "libdl",
+                "libdmabufheap",
             ],
         },
         android_arm64: {
@@ -2866,6 +2940,7 @@ cc_prebuilt_library_shared {
                 "libc",
                 "libm",
                 "libdl",
+                "libdmabufheap",
             ],
         },
     },
@@ -3299,6 +3374,7 @@ cc_prebuilt_library_shared {
                 "libc",
                 "libm",
                 "libdl",
+                "liblog",
             ],
         },
         android_arm64: {
@@ -3311,6 +3387,7 @@ cc_prebuilt_library_shared {
                 "libc",
                 "libm",
                 "libdl",
+                "liblog",
             ],
         },
     },
@@ -3335,6 +3412,7 @@ cc_prebuilt_library_shared {
                 "libc",
                 "libm",
                 "libdl",
+                "liblog",
             ],
         },
         android_arm64: {
@@ -3346,6 +3424,7 @@ cc_prebuilt_library_shared {
                 "libc",
                 "libm",
                 "libdl",
+                "liblog",
             ],
         },
     },

@@ -314,6 +314,14 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/Spacewar/proprietary/vendor/etc/mixer_paths_qrd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_qrd.xml \
     vendor/nothing/Spacewar/proprietary/vendor/etc/msm_irqbalance.conf:$(TARGET_COPY_OUT_VENDOR)/etc/msm_irqbalance.conf \
     vendor/nothing/Spacewar/proprietary/vendor/etc/permissions/vendor-qti-hardware-sensorscalibrate.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/vendor-qti-hardware-sensorscalibrate.xml \
+    vendor/nothing/Spacewar/proprietary/vendor/etc/permissions/android.hardware.opengles.aep.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.opengles.aep.xml \
+    vendor/nothing/Spacewar/proprietary/vendor/etc/permissions/android.hardware.vulkan.compute-0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.vulkan.compute-0.xml \
+    vendor/nothing/Spacewar/proprietary/vendor/etc/permissions/android.hardware.vulkan.level-1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.vulkan.level-1.xml \
+    vendor/nothing/Spacewar/proprietary/vendor/etc/permissions/android.hardware.vulkan.version-1_1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.vulkan.version-1_1.xml \
+    vendor/nothing/Spacewar/proprietary/vendor/etc/permissions/android.hardware.vulkan.version-1_3.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.vulkan.version-1_3.xml \
+    vendor/nothing/Spacewar/proprietary/vendor/etc/permissions/android.hardware.vulkan.version-1_4.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.vulkan.version-1_4.xml \
+    vendor/nothing/Spacewar/proprietary/vendor/etc/permissions/android.software.opengles.deqp.level.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.opengles.deqp.level.xml \
+    vendor/nothing/Spacewar/proprietary/vendor/etc/permissions/android.software.vulkan.deqp.level.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.vulkan.deqp.level.xml \
     vendor/nothing/Spacewar/proprietary/vendor/etc/powerhint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.xml \
     vendor/nothing/Spacewar/proprietary/vendor/etc/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt \
     vendor/nothing/Spacewar/proprietary/vendor/etc/qcril_database/qcrilNr.db:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/qcrilNr.db \
@@ -438,6 +446,8 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/Spacewar/proprietary/vendor/etc/wfdconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wfdconfig.xml \
     vendor/nothing/Spacewar/proprietary/vendor/etc/xtwifi.conf:$(TARGET_COPY_OUT_VENDOR)/etc/xtwifi.conf \
     vendor/nothing/Spacewar/proprietary/vendor/firmware/CAMERA_ICP_170.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP_170.elf \
+    vendor/nothing/Spacewar/proprietary/vendor/firmware/a630_sqe.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a630_sqe.fw \
+    vendor/nothing/Spacewar/proprietary/vendor/firmware/a650_sqe.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a650_sqe.fw \
     vendor/nothing/Spacewar/proprietary/vendor/firmware/a660_gmu.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/a660_gmu.bin \
     vendor/nothing/Spacewar/proprietary/vendor/firmware/a660_sqe.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a660_sqe.fw \
     vendor/nothing/Spacewar/proprietary/vendor/firmware/a660_zap.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/a660_zap.b00 \
@@ -445,6 +455,8 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/Spacewar/proprietary/vendor/firmware/a660_zap.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/a660_zap.b02 \
     vendor/nothing/Spacewar/proprietary/vendor/firmware/a660_zap.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/a660_zap.elf \
     vendor/nothing/Spacewar/proprietary/vendor/firmware/a660_zap.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/a660_zap.mdt \
+    vendor/nothing/Spacewar/proprietary/vendor/firmware/a740v3_sqe.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a740v3_sqe.fw \
+    vendor/nothing/Spacewar/proprietary/vendor/firmware/a740v3_zap.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/a740v3_zap.mbn \
     vendor/nothing/Spacewar/proprietary/vendor/firmware/goodixfp64.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/goodixfp64.b00 \
     vendor/nothing/Spacewar/proprietary/vendor/firmware/goodixfp64.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/goodixfp64.b01 \
     vendor/nothing/Spacewar/proprietary/vendor/firmware/goodixfp64.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/goodixfp64.b02 \
