@@ -1,0 +1,58 @@
+{
+    "Metadata": {
+        "Version": 2,
+        "Created": "2022-05-12",
+        "Description": "Exported from RichTap Creator Editor InnerTest"
+    },
+    "PatternList": [
+        {
+            "AbsoluteTime": 280,
+            "Pattern": [
+                {
+                    "Event": {
+                        "Type": "continuous",
+                        "RelativeTime": 0,
+                        "Duration": 1569,
+                        "Parameters": {
+                            "Intensity": 100,
+                            "Frequency": 36,
+                            "Curve": [
+                                {
+                                    "Time": 0,
+                                    "Intensity": 0,
+                                    "Frequency": 10
+                                },
+                                {
+                                    "Time": 87,
+                                    "Intensity": 0.13,
+                                    "Frequency": 20
+                                },
+                                {
+                                    "Time": 229,
+                                    "Intensity": 0.62,
+                                    "Frequency": 29
+                                },
+                                {
+                                    "Time": 410,
+                                    "Intensity": 0.18,
+                                    "Frequency": -10
+                                },
+                                {
+                                    "Time": 749,
+                                    "Intensity": 0.24,
+                                    "Frequency": 0
+                                },
+                                {
+                                    "Time": 1569,
+                                    "Intensity": 0,
+                                    "Frequency": -40
+                                }
+                            ]
+                        },
+                        "Index": 0
+                    }
+                }
+            ]
+        }
+    ]
+}

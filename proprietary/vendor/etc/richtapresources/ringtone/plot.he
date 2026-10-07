@@ -1,0 +1,313 @@
+{"Metadata":{
+ 	"Created":"2022-12-13",
+ 	"Description":" w2h .HE2.0 format",
+ 	"Version":2},
+ "PatternList":[{
+	"AbsoluteTime":0,
+ 	"Pattern":[{
+ 		"Event":{
+ 			"Type":"continuous",
+ 			"RelativeTime":0,
+			"Duration":57,
+ 			"Index":0,
+ 			"Parameters":{
+ 				"Intensity":100,
+ 				"Frequency":0,
+ 				"Curve":[
+					{"Time":0,"Intensity":0,"Frequency": 55},
+					{"Time":10,"Intensity":1,"Frequency": 55},
+					{"Time":47,"Intensity":1,"Frequency": 55},
+					{"Time":57,"Intensity":0,"Frequency": 55}]}}}]},{
+	"AbsoluteTime":626,
+ 	"Pattern":[{
+ 		"Event":{
+ 			"Type":"continuous",
+ 			"RelativeTime":0,
+			"Duration":58,
+ 			"Index":0,
+ 			"Parameters":{
+ 				"Intensity":100,
+ 				"Frequency":0,
+ 				"Curve":[
+					{"Time":0,"Intensity":0,"Frequency": 55},
+					{"Time":10,"Intensity":1,"Frequency": 55},
+					{"Time":48,"Intensity":1,"Frequency": 55},
+					{"Time":58,"Intensity":0,"Frequency": 55}]}}}]},{
+	"AbsoluteTime":878,
+ 	"Pattern":[{
+ 		"Event":{
+ 			"Type":"transient",
+ 			"RelativeTime":0,
+			"Index":0,
+ 			"Parameters":{
+ 				"Intensity":100,
+ 				"Frequency":50}}}]},{
+	"AbsoluteTime":1001,
+ 	"Pattern":[{
+ 		"Event":{
+ 			"Type":"transient",
+ 			"RelativeTime":0,
+			"Index":0,
+ 			"Parameters":{
+ 				"Intensity":100,
+ 				"Frequency":50}}}]},{
+	"AbsoluteTime":1127,
+ 	"Pattern":[{
+ 		"Event":{
+ 			"Type":"transient",
+ 			"RelativeTime":0,
+			"Index":0,
+ 			"Parameters":{
+ 				"Intensity":100,
+ 				"Frequency":50}}}]},{
+	"AbsoluteTime":1251,
+ 	"Pattern":[{
+ 		"Event":{
+ 			"Type":"continuous",
+ 			"RelativeTime":0,
+			"Duration":51,
+ 			"Index":0,
+ 			"Parameters":{
+ 				"Intensity":100,
+ 				"Frequency":0,
+ 				"Curve":[
+					{"Time":0,"Intensity":0,"Frequency": 55},
+					{"Time":10,"Intensity":1,"Frequency": 55},
+					{"Time":41,"Intensity":1,"Frequency": 55},
+					{"Time":51,"Intensity":0,"Frequency": 55}]}}}]},{
+	"AbsoluteTime":1307,
+ 	"Pattern":[{
+ 		"Event":{
+ 			"Type":"transient",
+ 			"RelativeTime":0,
+			"Index":0,
+ 			"Parameters":{
+ 				"Intensity":100,
+ 				"Frequency":55}}}]},{
+	"AbsoluteTime":1373,
+ 	"Pattern":[{
+ 		"Event":{
+ 			"Type":"transient",
+ 			"RelativeTime":0,
+			"Index":0,
+ 			"Parameters":{
+ 				"Intensity":100,
+ 				"Frequency":50}}}]},{
+	"AbsoluteTime":1503,
+ 	"Pattern":[{
+ 		"Event":{
+ 			"Type":"transient",
+ 			"RelativeTime":0,
+			"Index":0,
+ 			"Parameters":{
+ 				"Intensity":100,
+ 				"Frequency":50}}}]},{
+	"AbsoluteTime":1627,
+ 	"Pattern":[{
+ 		"Event":{
+ 			"Type":"transient",
+ 			"RelativeTime":0,
+			"Index":0,
+ 			"Parameters":{
+ 				"Intensity":100,
+ 				"Frequency":50}}}]},{
+	"AbsoluteTime":1751,
+ 	"Pattern":[{
+ 		"Event":{
+ 			"Type":"transient",
+ 			"RelativeTime":0,
+			"Index":0,
+ 			"Parameters":{
+ 				"Intensity":100,
+ 				"Frequency":50}}}]},{
+	"AbsoluteTime":1878,
+ 	"Pattern":[{
+ 		"Event":{
+ 			"Type":"transient",
+ 			"RelativeTime":0,
+			"Index":0,
+ 			"Parameters":{
+ 				"Intensity":100,
+ 				"Frequency":50}}}]},{
+	"AbsoluteTime":2875,
+ 	"Pattern":[{
+ 		"Event":{
+ 			"Type":"continuous",
+ 			"RelativeTime":0,
+			"Duration":55,
+ 			"Index":0,
+ 			"Parameters":{
+ 				"Intensity":100,
+ 				"Frequency":0,
+ 				"Curve":[
+					{"Time":0,"Intensity":0,"Frequency": 55},
+					{"Time":10,"Intensity":1,"Frequency": 55},
+					{"Time":45,"Intensity":1,"Frequency": 55},
+					{"Time":55,"Intensity":0,"Frequency": 55}]}}}]},{
+	"AbsoluteTime":3501,
+ 	"Pattern":[{
+ 		"Event":{
+ 			"Type":"continuous",
+ 			"RelativeTime":0,
+			"Duration":62,
+ 			"Index":0,
+ 			"Parameters":{
+ 				"Intensity":100,
+ 				"Frequency":0,
+ 				"Curve":[
+					{"Time":0,"Intensity":0,"Frequency": 55},
+					{"Time":10,"Intensity":1,"Frequency": 55},
+					{"Time":52,"Intensity":1,"Frequency": 55},
+					{"Time":62,"Intensity":0,"Frequency": 55}]}}}]},{
+	"AbsoluteTime":3750,
+ 	"Pattern":[{
+ 		"Event":{
+ 			"Type":"continuous",
+ 			"RelativeTime":0,
+			"Duration":52,
+ 			"Index":0,
+ 			"Parameters":{
+ 				"Intensity":100,
+ 				"Frequency":0,
+ 				"Curve":[
+					{"Time":0,"Intensity":0,"Frequency": 55},
+					{"Time":10,"Intensity":0.97,"Frequency": 55},
+					{"Time":42,"Intensity":0.97,"Frequency": 55},
+					{"Time":52,"Intensity":0,"Frequency": 55}]}}}]},{
+	"AbsoluteTime":3877,
+ 	"Pattern":[{
+ 		"Event":{
+ 			"Type":"continuous",
+ 			"RelativeTime":0,
+			"Duration":51,
+ 			"Index":0,
+ 			"Parameters":{
+ 				"Intensity":100,
+ 				"Frequency":0,
+ 				"Curve":[
+					{"Time":0,"Intensity":0,"Frequency": 55},
+					{"Time":10,"Intensity":1,"Frequency": 55},
+					{"Time":41,"Intensity":1,"Frequency": 55},
+					{"Time":51,"Intensity":0,"Frequency": 55}]}}}]},{
+	"AbsoluteTime":4003,
+ 	"Pattern":[{
+ 		"Event":{
+ 			"Type":"continuous",
+ 			"RelativeTime":0,
+			"Duration":51,
+ 			"Index":0,
+ 			"Parameters":{
+ 				"Intensity":100,
+ 				"Frequency":0,
+ 				"Curve":[
+					{"Time":0,"Intensity":0,"Frequency": 55},
+					{"Time":10,"Intensity":1,"Frequency": 55},
+					{"Time":41,"Intensity":1,"Frequency": 55},
+					{"Time":51,"Intensity":0,"Frequency": 55}]}}}]},{
+	"AbsoluteTime":4131,
+ 	"Pattern":[{
+ 		"Event":{
+ 			"Type":"continuous",
+ 			"RelativeTime":0,
+			"Duration":51,
+ 			"Index":0,
+ 			"Parameters":{
+ 				"Intensity":100,
+ 				"Frequency":0,
+ 				"Curve":[
+					{"Time":0,"Intensity":0,"Frequency": 55},
+					{"Time":10,"Intensity":1,"Frequency": 55},
+					{"Time":41,"Intensity":1,"Frequency": 55},
+					{"Time":51,"Intensity":0,"Frequency": 55}]}}}]},{
+	"AbsoluteTime":4254,
+ 	"Pattern":[{
+ 		"Event":{
+ 			"Type":"continuous",
+ 			"RelativeTime":0,
+			"Duration":50,
+ 			"Index":0,
+ 			"Parameters":{
+ 				"Intensity":100,
+ 				"Frequency":0,
+ 				"Curve":[
+					{"Time":0,"Intensity":0,"Frequency": 55},
+					{"Time":10,"Intensity":1,"Frequency": 55},
+					{"Time":40,"Intensity":1,"Frequency": 55},
+					{"Time":50,"Intensity":0,"Frequency": 55}]}}}]},{
+	"AbsoluteTime":4375,
+ 	"Pattern":[{
+ 		"Event":{
+ 			"Type":"continuous",
+ 			"RelativeTime":0,
+			"Duration":56,
+ 			"Index":0,
+ 			"Parameters":{
+ 				"Intensity":100,
+ 				"Frequency":0,
+ 				"Curve":[
+					{"Time":0,"Intensity":0,"Frequency": 55},
+					{"Time":10,"Intensity":1,"Frequency": 55},
+					{"Time":46,"Intensity":1,"Frequency": 55},
+					{"Time":56,"Intensity":0,"Frequency": 55}]}}}]},{
+	"AbsoluteTime":4501,
+ 	"Pattern":[{
+ 		"Event":{
+ 			"Type":"continuous",
+ 			"RelativeTime":0,
+			"Duration":54,
+ 			"Index":0,
+ 			"Parameters":{
+ 				"Intensity":100,
+ 				"Frequency":0,
+ 				"Curve":[
+					{"Time":0,"Intensity":0,"Frequency": 55},
+					{"Time":10,"Intensity":1,"Frequency": 55},
+					{"Time":44,"Intensity":1,"Frequency": 55},
+					{"Time":54,"Intensity":0,"Frequency": 55}]}}}]},{
+	"AbsoluteTime":4628,
+ 	"Pattern":[{
+ 		"Event":{
+ 			"Type":"continuous",
+ 			"RelativeTime":0,
+			"Duration":51,
+ 			"Index":0,
+ 			"Parameters":{
+ 				"Intensity":100,
+ 				"Frequency":0,
+ 				"Curve":[
+					{"Time":0,"Intensity":0,"Frequency": 55},
+					{"Time":10,"Intensity":1,"Frequency": 55},
+					{"Time":41,"Intensity":1,"Frequency": 55},
+					{"Time":51,"Intensity":0,"Frequency": 55}]}}}]},{
+	"AbsoluteTime":4755,
+ 	"Pattern":[{
+ 		"Event":{
+ 			"Type":"continuous",
+ 			"RelativeTime":0,
+			"Duration":51,
+ 			"Index":0,
+ 			"Parameters":{
+ 				"Intensity":100,
+ 				"Frequency":0,
+ 				"Curve":[
+					{"Time":0,"Intensity":0,"Frequency": 55},
+					{"Time":10,"Intensity":1,"Frequency": 55},
+					{"Time":41,"Intensity":1,"Frequency": 55},
+					{"Time":51,"Intensity":0,"Frequency": 55}]}}}]},
+		{
+	"AbsoluteTime":5865,
+ 	"Pattern":[{
+ 		"Event":{
+ 			"Type":"continuous",
+ 			"RelativeTime":0,
+			"Duration":10,
+ 			"Index":0,
+ 			"Parameters":{
+ 				"Intensity":100,
+ 				"Frequency":0,
+ 				"Curve":[
+					{"Time":0,"Intensity":0,"Frequency": 55},
+					{"Time":1,"Intensity":0.1,"Frequency": 55},
+					{"Time":5,"Intensity":0.1,"Frequency": 55},
+					{"Time":10,"Intensity":0,"Frequency": 55}]}}}]
+		}]}

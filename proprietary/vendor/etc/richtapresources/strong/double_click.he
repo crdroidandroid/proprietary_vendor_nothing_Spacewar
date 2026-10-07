@@ -1,0 +1,29 @@
+{
+    "Metadata": {
+        "Version": 1,
+        "Created": "2023-12-11",
+        "Description": "Export from RichTap HeConvert"
+    },
+    "Pattern": [
+        {
+            "Event": {
+                "Parameters": {
+                    "Frequency": 55,
+                    "Intensity": 95
+                },
+                "Type": "transient",
+                "RelativeTime": 0
+            }
+        },
+        {
+            "Event": {
+                "Parameters": {
+                    "Frequency": 55,
+                    "Intensity": 95
+                },
+                "Type": "transient",
+                "RelativeTime": 70
+            }
+        }
+    ]
+}
